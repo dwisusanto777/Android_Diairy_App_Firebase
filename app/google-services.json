@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "564692249430",
+    "project_id": "first-firebase-app-a4d22",
+    "storage_bucket": "first-firebase-app-a4d22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:564692249430:android:d53909eaa2423e44a644f7",
+        "android_client_info": {
+          "package_name": "com.example.course2dairyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "564692249430-mip0ep8ov53oiv7pkrda4fce9vfes5e8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7wlDWK86NyFACsnnHS25Qk1gI2nIMco8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "564692249430-mip0ep8ov53oiv7pkrda4fce9vfes5e8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

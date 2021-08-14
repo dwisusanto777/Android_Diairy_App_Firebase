@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#5DEDFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="EDIT DIARY"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/title"
+            android:hint="Judul Diary"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_text"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/deskripsi"
+            android:hint="Deskripsi"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_text"
+            android:textColorHint="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/edit_diary"
+            android:text="Update Diary"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/custom_button_register"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>
